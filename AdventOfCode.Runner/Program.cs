@@ -18,6 +18,9 @@ namespace AdventOfCode.Runner
                 case 1:
                     p = new Puzzle1();
                     break;
+                case 2:
+                    p = new Puzzle2();
+                    break;
                 default:
                     throw new ArgumentException("Invalid puzzle number");
             }

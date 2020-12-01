@@ -4,7 +4,7 @@ namespace AdventOfCode
 {
     public class Puzzle1 : PuzzleBase
     {
-        const int SUM_TARGET = 2020;
+        protected const int SUM_TARGET = 2020;
 
         public override int Run()
         {
