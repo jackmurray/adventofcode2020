@@ -1,0 +1,1 @@
+dotnet run -p AdventOfCode.Runner %1
