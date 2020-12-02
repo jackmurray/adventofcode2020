@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace AdventOfCode.Tests
 {
-    public class Tests
+    public class Puzzle1Tests
     {
         private IEnumerable<string> TestData;
         private IPuzzle p;
