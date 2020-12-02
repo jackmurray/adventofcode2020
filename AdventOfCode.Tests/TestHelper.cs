@@ -8,12 +8,12 @@ namespace AdventOfCode.Tests
 {
     public class TestHelper
     {
-        public static IEnumerable<int> LoadInputFromFile(string path)
+        public static IEnumerable<string> LoadInputFromFile(string path)
         {
             var lines = System.IO.File.ReadAllLines("..\\..\\..\\ExampleInputs\\" + path);
             foreach (var line in lines)
             {
-                yield return int.Parse(line);
+                yield return line;
             }
         }
     }

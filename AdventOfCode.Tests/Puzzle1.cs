@@ -5,7 +5,7 @@ namespace AdventOfCode.Tests
 {
     public class Tests
     {
-        private IEnumerable<int> TestData;
+        private IEnumerable<string> TestData;
         private IPuzzle p;
 
         [SetUp]

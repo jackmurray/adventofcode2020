@@ -8,9 +8,9 @@ namespace AdventOfCode
 {
     public abstract class PuzzleBase : IPuzzle
     {
-        protected IEnumerable<int> Data;
+        protected IEnumerable<string> Data;
 
-        public virtual void Input(IEnumerable<int> Data)
+        public virtual void Input(IEnumerable<string> Data)
         {
             this.Data = Data;
         }

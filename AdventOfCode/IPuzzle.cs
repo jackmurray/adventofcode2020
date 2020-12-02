@@ -8,7 +8,7 @@ namespace AdventOfCode
 {
     public interface IPuzzle
     {
-        public void Input(IEnumerable<int> Data); // load input file
+        public void Input(IEnumerable<string> Data); // load input file
         public int Run(); // run the puzzle and produce output
     }
 }

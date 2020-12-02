@@ -9,7 +9,7 @@ namespace AdventOfCode.Runner
         static void Main(string[] args)
         {
             IPuzzle p;
-            List<int> input = new List<int>();
+            List<string> input = new();
 
             int puzzleNumber = int.Parse(args[0]);
 
@@ -34,7 +34,7 @@ namespace AdventOfCode.Runner
                 if (string.IsNullOrEmpty(consoleInput))
                     break;
 
-                input.Add(int.Parse(consoleInput));
+                input.Add(consoleInput);
             }
 
             p.Input(input);

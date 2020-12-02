@@ -2,15 +2,15 @@
 
 namespace AdventOfCode
 {
-    public class Puzzle1 : PuzzleBase
+    public class Puzzle1 : PuzzleBaseInt
     {
         protected const int SUM_TARGET = 2020;
 
         public override int Run()
         {
-            foreach (int i in Data)
+            foreach (int i in ParsedData)
             {
-                foreach (int j in Data)
+                foreach (int j in ParsedData)
                 {
                     if (i + j == SUM_TARGET)
                         return (i * j);
